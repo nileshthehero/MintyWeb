@@ -1,0 +1,21 @@
+.footer_text{
+    text-align: center;
+    background-color:#090c3e;
+    color: #fff;
+}
+
+#footerstyle{
+    margin-top: 20px;
+}
+
+@media (max-width:480px){
+    .footer_text{
+        text-align: center;
+    }   
+}
+
+@media (min-width:480px) and (max-width:768px){
+    .footer_text{
+        text-align: center;
+    } 
+}

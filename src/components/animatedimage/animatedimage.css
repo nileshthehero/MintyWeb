@@ -1,0 +1,118 @@
+.imagestyle>img {
+    width: 100%;
+}
+
+.titlestyle {
+    height: 100%;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.titlestyle>div>h2 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: 'Inter', sans-serif;
+}
+
+.titlestyle>div>h2>span {
+    color: #0194FC;
+}
+
+.titlestyle>div>p {
+    color: #a2bbd2;
+    font-size: 17px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.titlestyle>div>a {
+    margin-top: 45px;
+    background: #0194FC;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-bottom: 0;
+    padding: 20px 37px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 50px;
+}
+
+.btnicon {
+    margin-left: 5px;
+    background-color: #0194FC;
+    font-size: 50px;
+}
+
+.mainbutton{
+    text-align: center;
+    margin-top: 45px;
+    background: #0194FC;
+    border-radius: 30px;
+    margin-bottom: 0;
+    width: 266px;
+}
+ 
+
+.mainbutton a {
+    text-align: center;
+    margin-top: 45px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 34px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* for Mobile */
+
+@media (max-width:480px) {
+    .imagestyle img {
+        width: 100%;
+    }
+
+    .titlestyle div h2 {
+        font-size: 20px;
+        font-weight: 100;
+        margin-top: 100px;
+    }
+
+    .titlestyle div p {
+        text-align: left;
+    }
+
+    .titlestyle div span {
+        color: #0194FC;
+    }
+
+    .mainbutton{
+        text-align: center;
+        margin-top: 45px;
+        background: #0194FC;
+        border-radius: 30px;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+
+    .mainbutton a {
+        margin-top: 45px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 34px;
+        border-radius: 30px;
+        text-decoration: none;
+    
+    }
+
+    .textstyle{
+        margin-bottom: 10px;
+    }
+}

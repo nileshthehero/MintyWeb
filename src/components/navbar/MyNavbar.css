@@ -1,0 +1,43 @@
+.navbutton{
+    border-radius: 30px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 156px;
+}
+
+.navbutton a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.myNavbar{
+    justify-content: end !important;
+    font-size: 20px;
+}
+
+.myNavbar .navbar-nav a{
+    color: #fff !important;
+    margin: 5px;
+}
+
+.myNavbar .navbar-nav a:active{
+    color: #fff;
+}
+
+button.navbar-toggler {
+    background-color: white !important;
+}
+
+/* for Mobile */
+
+@media (max-width:480){
+
+
+    button.navbar-toggler {
+        background-color: white !important;
+    }
+
+    
+}

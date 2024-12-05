@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+#contactform{
+    margin-top: 100px;
+}
+
+.formstyle {
+    display: inline-flex;
+    background-color: #090c3e;
+    width: 60%;
+    padding-right: 0;
+}
+
+.formstyle>div {
+    background-color: #0a1f62;
+    text-align: center;
+}
+
+.formstyle>div>h3 {
+    font-size: 24px;
+    padding-top: 35px;
+    padding-left: 60px;
+    text-align: left;
+    padding-bottom: 60px;
+}
+
+.inputstyle {
+    background-color: transparent;
+    border-color: transparent;
+    padding-left: 22px;
+    width: 80%;
+    height: 54px;
+    border-bottom: 1px solid #314D8E;
+    color: #fff;
+    line-height: 1;
+    outline: none;
+}
+
+.btnstyle {
+    background-color: #0194fc;
+    border: none;
+    height: 50px;
+    width: 172px;
+    margin-top: 20px;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    margin-left: 0;
+    padding: 14px 39px;
+}
+
+.contactinfo {
+    background-color: #0194fc;
+    width: 40%;
+}
+
+.contactinfo>div>h3 {
+    background-color: #0194fc;
+    font-size: 24px;
+    padding-top: 35px;
+    padding-left: 60px;
+    text-align: left;
+    padding-bottom: 60px;
+}
+
+.iconstyle {
+    display: flex;
+    color: #fff;
+    padding: 12px;
+}
+
+.icon {
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background: #48DCA8;
+    border-radius: 100%;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 34px;
+}
+
+.formcol {
+    margin: 0;
+    padding: 0;
+}
+
+.formcol>p {
+    margin-bottom: 0;
+}
+
+.messagebox {
+    height: 138px;
+    padding-top: 24px;
+}
+
+.containerform {
+    display: flex;
+}
+
+/* for Mobile */
+
+@media (max-width:480px) {
+    .formstyle {
+        background-color: #090c3e;
+        width: 100%;
+    }
+
+    .formstyle div {
+        margin-right: 10px;
+    }
+
+    .contactinfo {
+        width: 94%;
+        background-color: #0194fc;
+        margin-right: 10px;
+        margin-left: 12px;
+        margin-top: 10px;
+    }
+
+    .contactinfo div h3 {
+        background-color: #0194fc;
+        font-size: 24px;
+        text-align: center;
+        padding-top: 35px;
+        /* padding-left: 60px; */
+        text-align: left;
+        padding-bottom: 20px;
+    }
+}
+
+
+/* for Teblet */
+
+@media (min-width:480px) and (max-width:768px) {
+    .formstyle {
+        background-color: #090c3e;
+        width: 100%;
+    }
+    
+    .contactinfo {
+        width: 98%;
+        margin-left: 11px;
+        margin-top: 10px;
+    }
+}
+
